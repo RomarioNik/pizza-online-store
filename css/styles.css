@@ -1,0 +1,67 @@
+:root {
+  --text-color: #777a83;
+  --text-color-light: rgb(173, 175, 181);
+  --headers-color: #3a3d49;
+  --background-color: #ffffff;
+  --buttons-background-color: #ffd141;
+  --buttons-text-color: #3a3d49;
+}
+
+body {
+}
+
+[class*='_container'] {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+}
+
+/* ------- HEADER ------- */
+
+.header {
+}
+.header-up {
+  height: 58px;
+  background-color: #393d4a;
+}
+.header-up__container {
+}
+.header-up__wrap {
+}
+.header-up__phone {
+}
+.header-up__button {
+}
+.header-mid {
+}
+.header-mid__container {
+}
+.header-mid__list {
+}
+.header-mid__item {
+}
+.header-mid_link {
+}
+.header-mid__link {
+}
+.header-mid__logo-wrap {
+}
+.header-mid__logo-link {
+}
+.header-mid__logo-img {
+}
+.header-mid__find {
+}
+.header-mid__button {
+}
+.header-down {
+}
+.header-down__list {
+}
+.header-down__item {
+}
+.header-down__link {
+}
