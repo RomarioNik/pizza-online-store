@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Oswald:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Oswald:wght@200;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -585,7 +585,56 @@
       </nav>
     </header>
 
-    <main></main>
+    <main class="page">
+      <section class="page-banner banner ibg">
+        <img class="banner__img" src="./images/banner/slider-1-red-fish.jpg" alt="Salmon fish" />
+        <div class="banner__description _container">
+          <span class="banner__price">$24.99</span>
+          <h2 class="banner__name">Salmon</h2>
+          <p class="banner__text">Steaks</p>
+          <button class="banner__button btn" type="button">Order Now</button>
+        </div>
+      </section>
+
+      <section class="page-advertise advertise">
+        <div class="_container">
+          <ul class="advertise__list">
+            <li class="advertise__item">
+              <img
+                class="advertise__img"
+                src="./images/adv/frise-advertise.jpg"
+                alt="Frise"
+                width="370"
+              />
+              <div class="advertise__description advertise__description--color">
+                <h2 class="advertise__header">
+                  <span class="advertise__span">Get your free</span><br />french fry
+                </h2>
+                <a class="advertise__link" href="#">Read more</a>
+              </div>
+            </li>
+            <li class="advertise__item">
+              <img
+                class="advertise__img"
+                src="./images/adv/roll-advertise.jpg"
+                alt="Suhi roll"
+                width="756"
+              />
+              <div class="advertise__description">
+                <h2 class="advertise__header">
+                  <span class="advertise__span">Traditional</span><br />japanese sushi
+                </h2>
+                <a class="advertise__link" href="#">Read more</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="page__products products">
+        <div class="_container"></div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
