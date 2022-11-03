@@ -76,6 +76,7 @@ img {
 
 .btn {
   border: none;
+  background-color: transparent;
 }
 
 /* ------- HEADER ------- */
@@ -120,8 +121,6 @@ img {
   font-weight: 700;
   line-height: calc(14 / 14);
   color: #ffffff;
-
-  background-color: transparent;
 }
 
 .header-up__button:hover,
@@ -202,16 +201,15 @@ img {
 }
 
 .header-mid__button {
-  background-color: transparent;
 }
 
 .header-mid__link-find {
   margin-left: 30px;
 }
 
-.header-mid__button-cart {
+.header-mid__button-find {
   width: 17px;
-  height: 17px;
+  height: auto;
 }
 
 .header-mid__link-favorite {
