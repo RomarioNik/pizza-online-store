@@ -116,6 +116,9 @@
 }
 
 .goods__button-cart {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   width: 100%;
   padding: 7px 25px;
 
@@ -133,7 +136,7 @@
 }
 
 .goods__svg-cart {
-  width: 14px;
-  height: auto;
+  padding-top: 2px;
   margin-right: 8px;
+  fill: currentColor;
 }

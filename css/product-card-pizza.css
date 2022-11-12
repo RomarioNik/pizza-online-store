@@ -177,8 +177,6 @@
 } */
 
 .pizza__svg-clear {
-  width: 12px;
-  height: 15px;
   margin-right: 5px;
 }
 
@@ -209,6 +207,9 @@
 }
 
 .pizza__button-cart {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   width: 100%;
   padding: 7px 25px;
 
@@ -226,7 +227,7 @@
 }
 
 .pizza__svg-cart {
-  width: 14px;
-  height: auto;
+  padding-top: 2px;
   margin-right: 8px;
+  fill: currentColor;
 }
